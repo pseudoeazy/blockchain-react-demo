@@ -2,8 +2,8 @@ import React, { useState, useEffect, ChangeEvent } from "react";
 import { generateHash } from "./../../lib/Transactions";
 
 const HashSha256: React.FC = () => {
-  const [data, setData] = useState("");
-  const [hash, setHash] = useState("");
+  const [data, setData] = useState<string>("");
+  const [hash, setHash] = useState<string>("");
 
   const handleChange = (e: ChangeEvent<HTMLTextAreaElement>) => {
     setData(e.target.value);

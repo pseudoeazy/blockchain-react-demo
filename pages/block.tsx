@@ -2,12 +2,14 @@ import type { NextPage } from "next";
 import Layout from "../components/Layout";
 import BlockForm from "../components/forms/BlockForm";
 
+
 const BlockPage: NextPage = () => {
   return (
     <Layout title="Block - Blockchain Demo">
       <main className="min-h-screen w-10/12 mx-auto mt-8">
         <h1 className="text-4xl mb-2">Block</h1>
         <BlockForm />
+
         <article className="mt-4">
           <h2 className="text-xl">What is block?</h2>
           <p className="mt-3 text-base">
