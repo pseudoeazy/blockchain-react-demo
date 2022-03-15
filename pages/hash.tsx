@@ -9,18 +9,18 @@ const Hash: NextPage = () => {
         <h1 className="text-4xl mb-2">SHA256 Hash</h1>
         <HashSha256 />
         <article className="mt-4">
-          <p>
+          <p className="mt-3 text-base">
             Cryptography is a study that is associated with secured
             communication. When a useful data is transformed to become
             meaningless to third parties, it is said to be encrypted. Reversing
-            the encrypted data to a meaningful data is called decryption.
-            Encryption and decryption are a part of cryptography.
+            the encrypted data to a meaningful data is known as decryption.
+            Encryption and decryption are essential part of cryptography.
           </p>
-          <p>
+          <p className="mt-3 text-base">
             Blockchain makes extensive use of cryptography. That is the reason
-            the word &quot;crypto&quot; seems to be assosciated with it.
+            the word &quot;crypto&quot; is often associated with it.
           </p>
-          <p>
+          <p className="mt-3 text-base">
             Hashing is a process of encrypting data in one way function. You
             cannot reverse a data to its original content after hashing it.
             There are various type of hashing. Hash256 is a one way encryption

@@ -11,10 +11,10 @@ const menus: Menu[] = [
   { title: "Blockchain Demo", path: "/" },
   { title: "Hash", path: "/hash" },
   { title: "Block", path: "/block" },
-  { title: "Blockchain", path: "/blockchain" },
-  { title: "Distributed", path: "/distributed" },
-  { title: "Tokens", path: "/tokens" },
-  { title: "Coinbase", path: "/coinbase" },
+  // { title: "Blockchain", path: "/blockchain" },
+  // { title: "Distributed", path: "/distributed" },
+  // { title: "Tokens", path: "/tokens" },
+  // { title: "Coinbase", path: "/coinbase" },
 ];
 
 const NavBar: React.FC = () => {
