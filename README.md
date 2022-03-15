@@ -1,8 +1,8 @@
 ## [Blockchain React Demo](https://blockchain-react-demo.vercel.app/)
 
-Frontend App for demostrating how blockchain works. This is a part of my journal in web3 journey.
+Frontend App for demostrating how blockchain works.
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). [Live URL](https://blockchain-react-demo.vercel.app/)
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
